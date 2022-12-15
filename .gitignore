@@ -3,4 +3,6 @@
 .env
 data/**/*
 !data/.gitkeep
+!data/downloaded/.gitkeep
 *.log
+*.log.json
