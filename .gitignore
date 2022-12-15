@@ -1,4 +1,6 @@
-debug.log
 .idea
 .DS_Store
 .env
+data/**/*
+!data/.gitkeep
+*.log
