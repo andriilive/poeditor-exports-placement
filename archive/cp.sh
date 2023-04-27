@@ -1,6 +1,9 @@
 source .env
+
+# Moves manually downloaded from POEditor files into next-translate project structure
+
 SOURCE_FOLDER=~/Downloads
-DESTINATION_FOLDER=~/IdeaProjects/$PROJECT-web/locales
+DESTINATION_FOLDER=~/IdeaProjects/$PROJECT/locales
 
 declare -A MAP_LANG
 MAP_LANG[Czech]="cs"
@@ -12,6 +15,7 @@ MAP_LANG[Polish]="pl"
 MAP_LANG[Serbian]="sr"
 MAP_LANG[Russian]="ru"
 MAP_LANG[French]="fr"
+MAP_LANG[Ukrainian]="uk"
 
 LOG_FILES=()
 

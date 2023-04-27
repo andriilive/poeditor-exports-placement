@@ -18,7 +18,7 @@ Rename and map your poeditor json exports to your project translations folder **
 $ zsh cp.sh
 
 # To download translations run
-$ zsh fetch.sh
+$ zsh main.sh
 ```
 
 [@yolkstudio](https://github.com/yolkstudio)
