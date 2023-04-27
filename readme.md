@@ -4,9 +4,13 @@
 
 Maps [poeditor](https://poeditor.com/projects) json exports to your project translations folder
 
+## Configuration
+
+Copy and fill in the `.env` file
 
 ```bash
-$ cp .env.example .env
+cp .env.example .env
+open .env
 ```
 
 ## Usage
@@ -14,11 +18,8 @@ $ cp .env.example .env
 Rename and map your poeditor json exports to your project translations folder **or** downloads translations keyd json files
 
 ```bash
-# To copy translations run
-$ zsh cp.sh
-
 # To download translations run
-$ zsh main.sh
+bash main.sh
 ```
 
 [@yolkstudio](https://github.com/yolkstudio)
